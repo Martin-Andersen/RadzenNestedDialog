@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedDialogs.Server", "NestedDialogs\Server\NestedDialogs.Server.csproj", "{22CD9B91-43D1-4718-A8FB-CD2C7D13DE5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedDialogs.Client", "NestedDialogs\Client\NestedDialogs.Client.csproj", "{9F582830-A4F1-4E47-A14F-40211860EF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedDialogs.Shared", "NestedDialogs\Shared\NestedDialogs.Shared.csproj", "{B71D85FA-AFF4-4A95-AAB4-88B6CD45D9B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CD9B91-43D1-4718-A8FB-CD2C7D13DE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CD9B91-43D1-4718-A8FB-CD2C7D13DE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CD9B91-43D1-4718-A8FB-CD2C7D13DE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CD9B91-43D1-4718-A8FB-CD2C7D13DE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F582830-A4F1-4E47-A14F-40211860EF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F582830-A4F1-4E47-A14F-40211860EF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F582830-A4F1-4E47-A14F-40211860EF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F582830-A4F1-4E47-A14F-40211860EF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71D85FA-AFF4-4A95-AAB4-88B6CD45D9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71D85FA-AFF4-4A95-AAB4-88B6CD45D9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71D85FA-AFF4-4A95-AAB4-88B6CD45D9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71D85FA-AFF4-4A95-AAB4-88B6CD45D9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB8C8312-9986-4BA1-ABD2-3598784D8890}
+	EndGlobalSection
+EndGlobal

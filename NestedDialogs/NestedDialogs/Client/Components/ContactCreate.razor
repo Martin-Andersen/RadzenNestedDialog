@@ -1,0 +1,11 @@
+﻿<div class="form-row">
+    <div class="col">
+        <EditForm Model="@Contact" OnValidSubmit="HandleValidSubmit" autocomplete="off">
+            <div>
+                <RadzenButton Click="@InactivateContactButtonClicked" Text="Inactivate Contact" Style="width: 150px" ButtonStyle="ButtonStyle.Danger" @onclick:stopPropagation="true"/>
+                <RadzenButton ButtonType="ButtonType.Submit" Text="OK" Style="width: 150px"/>
+                <RadzenButton Click="args => DialogService.Close(false)" ButtonStyle="ButtonStyle.Secondary" Text="Cancel" Style="width: 150px"/>
+            </div>
+        </EditForm>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<h1>Nested Dialog test!</h1>
+
+<div style="width: 700px">
+    <h3>The edit button calls a custom dialog with 3 buttons</h3>
+    <ul>
+        <li>Inactivate: sets the contact inactivate after showing a confirm dialog. If OK then close the dialog and return. This is not working. Not returning to the code in on the index page</li>
+        <li>OK: returns the contact object to the index page</li>
+        <li>Cancel: return false.</li>
+    </ul>
+</div>
+
+
+
+<RadzenButton Click="@EditContactButtonClick" Text="Edit Contact" Style="width: 150px"/>
